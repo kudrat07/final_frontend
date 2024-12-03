@@ -8,7 +8,7 @@ import { BrowserRouter , Routes, Route } from "react-router-dom";
 import Checkout from './components/Checkout/Checkout';
 import Address from './components/Address/Address';
 import Payment from './components/Payment/Payment';
-import OrderSuccess from './components/orderSuccess/OrderSuccess';
+import OrderSuccess from './components/OrderSuccess/OrderSuccess';
 import Profile from "./components/Profile/Profile"
 
 function App() {
