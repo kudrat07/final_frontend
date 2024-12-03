@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import starLogo from "../../assets/star-icon.png";
-import locationLogo from "../../assets/Location.png";
+import locationLogo from "../../assets/location.png";
 import cartLogo from "../../assets/cart-icon.png";
 import arrowLogo from "../../assets/download-icon.png";
 import "./Navbar.css"
