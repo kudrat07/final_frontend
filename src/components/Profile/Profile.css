@@ -1,0 +1,135 @@
+.profile-container {
+  margin: 0 56px;
+}
+.profile-wrapper {
+  margin: 0 24px 120px 24px;
+  margin-bottom: 120px;
+}
+.profile-title--wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.myProfile-text {
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.profile-top--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-pic--wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.profile-logo {
+  width: 72px;
+}
+.profile-user--name {
+  font-size: 24px;
+  font-weight: 500;
+}
+.profile-edit--btn {
+  height: 26px;
+  color: #fff;
+  border: none;
+  background-color: #fc8a06;
+  padding: 16px;
+  display: flex;
+  place-items: center;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.profile-input--wrapper {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.profile-user--info {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-first--input,
+.profile-second--input {
+  width: 50vw;
+  max-width: 560px;
+}
+.profile-first--input {
+  margin: 0 64px 0 16px;
+}
+.profile-input {
+  display: flex;
+  margin-bottom: 24px;
+  flex-direction: column;
+  gap: 8px;
+}
+.profile-label--text {
+  font-size: 15px;
+  opacity: 80%;
+}
+.profile-input--field {
+  font-size: 16px;
+  border: none;
+  color: #000;
+}
+.profile-input--field.editable {
+  border: 0.5px solid #00000080;
+  outline: none;
+  border-radius: 8px;
+}
+
+.profile-border {
+  border: 1px solid black;
+}
+.loading-profile {
+  font-size: 32px;
+}
+
+/* SAVED CARD */
+.cards-container {
+  margin-top: 32px;
+}
+.saved-card--text {
+  font-size: 24px;
+  font-weight: 500;
+}
+.saved-card--wrapper {
+  margin-top: 24px;
+  display: flex;
+  gap: 32px;
+}
+
+.saved-card--container {
+  display: inline-flex;
+  border: 1px solid #00000080;
+  place-items: center;
+  gap: 16px;
+  padding: 8px 20px;
+  border-radius: 16px;
+  height: 80px;
+}
+.card-number--wrapper {
+  margin-top: 12px;
+}
+.card-number {
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+}
+.card-name {
+  font-size: 16px;
+  opacity: 80%;
+}
+.edit-icon--btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.add-card--btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.restaurant-logo--container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.restaurant-link {
+  width: 100%;
+}
+
+.restaurant-logo {
+  max-width: 200px;
+  width: 100%;
+}
+

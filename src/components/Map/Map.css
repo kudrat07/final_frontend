@@ -1,0 +1,101 @@
+/* src/components/Map.css */
+.map-cls {
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 14px 0 rgba(0, 0, 0, 0.25);
+
+  }
+
+ 
+.custom-icon {
+    position: relative;
+  }
+  
+  .custom-marker-icon {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    font-weight: bold;
+  }
+  
+
+
+/* Custom marker style */
+.custom-icon {
+    position: relative;
+    left: -100px;
+    top: -100px;
+  }
+  
+  .custom-marker-icon {
+    width: 64px;
+    height: 64px;
+    background-color: #03081F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    
+  }
+  
+  .leaflet-popup-content-wrapper {
+    background-color: #03081FF7;
+    padding: 24px;
+    width: 350px;
+    height: 400px; 
+    display: flex;
+    place-items: center;
+  }
+  
+
+  .map-title{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  .map-span{
+      font-size: 22px;
+  }
+  .map-text{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .map-phone{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .mobile-no{
+    font-size: 24px;
+    font-weight: 400;
+
+  }
+  .leaflet-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fc8a06;
+  }
+  
+  .leaflet-popup-content {
+    color: #fff;
+    margin-top: 32px;
+  }
+  
+  
+  .leaflet-popup-content-wrapper {
+    position: relative;
+    right: 700px;
+    top: 60px;
+  }
+  
+
+  
+  
+  

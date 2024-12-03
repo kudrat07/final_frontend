@@ -1,0 +1,132 @@
+.checkout-container{
+    margin: 0 56px;
+}
+
+.checkout-title--wrapper{
+    display: flex;
+    align-items: center;
+}
+.checkout-title--wrapper{
+    margin-bottom: 1rem;
+}
+
+.order-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.order-detail--wrapper{
+    margin-bottom: 1rem;
+
+}
+.order--wrapper{
+    display: flex;
+    gap: 1.5rem;
+}
+.order-container{
+    border: 1px solid #03081F;
+    border-radius: 12px;
+    width: 60vw;
+    max-width: 720px;
+    padding: 14px;
+
+}
+.order-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.order-detail--item{
+    display: flex;
+}
+.food-itemName--wrapper{
+    margin-left: 1rem;
+}
+.food-itemName{
+    color: #03081F;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.food-itemNumber{
+    color: #83858A;
+    font-size: 14px;
+    font-weight: 400;
+}
+.border{
+    border-bottom: 1px solid #202938;
+}
+.price-text{
+    color: #028643;
+    font-weight: 600;
+}
+.order-label{
+    color: #83858A;
+}
+
+.order-container--second{
+    width: 40vw;
+}
+
+.address-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.address-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #03081F;
+    border-radius: 50px;
+    padding: 0 12px;
+    margin-bottom: 12px;
+}
+.delivery-address--container{
+    display: flex;
+    align-items: center;
+}
+.address-location--logo{
+    width: 64px;
+    margin-top: 16px;
+    
+}
+.delivery-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.delivery-text--small{
+    font-size: 14px;
+    color: #83858A;
+}
+.price-wrapper, .tax-wrapper{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.items, .subtotal{
+    color: #83858A;
+}
+.subtotal,.subtotal-price{
+    font-size: 20px;
+    line-height: 32px;
+}
+.subtotal-price{
+    font-weight: 700;
+}
+
+.order-payment--btn{
+    font-size: 16px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    background-color: #FC8A06;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 8px 0;
+    border-radius: 50px;
+    cursor: pointer;
+}

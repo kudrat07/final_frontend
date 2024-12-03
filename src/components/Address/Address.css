@@ -1,0 +1,90 @@
+.address-container{
+    margin: 0 56px;
+}
+.address--wrapper{
+    margin: 24px 0 300px 0;
+}
+.address-title--wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.address-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.add-address--btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.add-address--box{
+    border: 1px dashed #AFAFAF;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+}
+.add-address{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.address-box--container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.address-box{
+    height: 200px;
+    width: 300px;
+    border: 1px solid #AFAFAF;
+    border-radius: 12px;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.address-top--wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.address-name{
+    font-weight: 600;
+}
+.address-default, .address-btn, .address-line{
+    color: #FC8A06;
+
+}
+.address-default{
+    background-color: #FFEDD8;
+    border-radius: 50px;
+    height: 24px;
+    width:88px;
+    text-align: center;
+}
+.address-btn--wrapper{
+    display: flex;
+    gap: 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+}
+.address-text, .address-phone, .address-btn{
+    font-size: 16px;
+
+}
+.address-text{
+    margin-bottom: 14px;
+}
+
+.address-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
